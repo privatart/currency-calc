@@ -163,7 +163,7 @@ function totalDollarSummFunct() {
       totalSumDollar.value = totalDollarSum.toFixed(2);
       totalSumDollar.style.color = "grey";
       setTimeout(function () {
-        totalSumDollar.style.color = "white";
+        totalSumDollar.style.color = "black";
       }, 200);
     }
   }
@@ -178,7 +178,7 @@ function totalUahSummFunct() {
       totalSumUah.value = totalUahSumm.toFixed(2);
       totalSumUah.style.color = "grey";
       setTimeout(function () {
-        totalSumUah.style.color = "white";
+        totalSumUah.style.color = "black";
       }, 200);
     }
   }
@@ -193,7 +193,7 @@ function totalEuroSummFunct() {
       totalSumEuro.value = totalEuroSumm.toFixed(2);
       totalSumEuro.style.color = "grey";
       setTimeout(function () {
-        totalSumEuro.style.color = "white";
+        totalSumEuro.style.color = "black";
       }, 200);
     }
   }
