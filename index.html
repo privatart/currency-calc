@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FIORE currency calc</title>
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="nonScrollContent">
+          <br />
+          <a href="https://fiore.com.ua/"
+            ><img src="img/fiore-logo.png" class="header-logo" alt="logo"
+          /></a>
+          <p class="headerText">Dynamic currency rate</p>
+          <hr />
+          <p class="todaysCoursesTitle">
+            Todays courses (<span class="todaysDate"></span>):
+          </p>
+          <div class="todaysCourses">
+            <div class="labelWithInput">
+              <label for="dollarCourse">Dollar course:</label>
+              <input
+                type="number"
+                id="dollarCourse"
+                class="dollarCourse"
+                name="dollarCourse" disabled
+              /><br />
+            </div>
+            <div class="labelWithInput">
+              <label for="euroCross">Euro cross:</label>
+              <input
+                type="number"
+                id="euroCross"
+                class="euroCross"
+                name="euroCross" disabled
+              />
+              <br />
+            </div>
+          </div>
+          <hr />
+          <div class="totalSum">
+            <div class="labelWithInput">
+              <label for="totalSumDollar">Total $ sum:</label>
+              <input
+                type="number"
+                id="totalSumDollar"
+                class="totalSumDollar"
+                disabled
+              />
+            </div>
+            <div class="labelWithInput">
+              <label for="totalSumUah">Total ₴ sum:</label>
+              <input
+                type="number"
+                id="totalSumUah"
+                class="totalSumUah"
+                disabled
+              />
+            </div>
+            <div class="labelWithInput">
+              <label for="totalSumEuro">Total € sum:</label>
+              <input
+                type="number"
+                id="totalSumEuro"
+                class="totalSumEuro"
+                disabled
+              />
+            </div>
+            <div>
+              <button class="clearAllBtn">clear all</button>
+            </div>
+          </div>
+          <hr />
+            </div>
+      </header>
+      <div class="mainContent">
+         <div class="calcCourses">
+          <div class="labelWithInput">
+            <span>$ price:</span>
+            <input type="number" class="calcDollarPrice" />
+          </div>
+          <div class="labelWithInput">
+            <span>₴ price:</span>
+            <input type="number" class="calcUahPrice" disabled />
+          </div>
+          <div class="labelWithInput">
+            <span>€ price:</span>
+            <input type="number" class="calcEuroPrice" disabled />
+          </div>
+          <div>
+            <button class="deleteBtn" disabled>delete</button>
+          </div>
+        </div>
+        <!-- <form class="calcCourses">
+      <div>
+      placeholder="Ціна у доларах"
+      <input type="number" id="calcDollarPrice" class="calcDollarPrice" name="calcDollarPrice" /><br />
+    </div>
+    <div>
+      
+      <input type="number" id="calcEuroPrice" class="calcEuroPrice" name="calcEuroPrice" /><br />
+    </div>
+    <div>
+      
+      <input type="number" id="calcUahPrice" class="calcUahPrice" name="calcUahPrice" /><br />
+    </div>
+    <br/>    
+    </form> -->
+        <div class="results-container"></div>
+        <br />
+        <button id="addFields">+</button>
+        <br />
+        <br />
+        <hr />
+      </div>
+      <footer id="footer"></footer>
+    </div>
+    <script src="js/calculate.js"></script>
+  </body>
+</html>
