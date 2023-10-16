@@ -129,9 +129,7 @@ hr {
 }
 
 input[disabled] {
-/*   color: white; */
-  color: black; 
-/*   temporary changes */
+  color: black;
 }
 
 .deleteBtn {
