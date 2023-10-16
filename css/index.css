@@ -76,7 +76,7 @@ header {
 
 .labelWithInput {
   display: flex;
-  flex-direction: column; /* Встановлюємо напрямок колонок (вертикально) */
+  flex-direction: column;
   gap: 3px;
   align-items: center;
   justify-content: flex-end;
@@ -92,7 +92,7 @@ input {
   text-align: center;
   width: 60px;
   font-size: smaller;
-  color: red; 
+  color: black; 
 /*   temporary changes */
 }
 
@@ -112,6 +112,10 @@ input {
   margin-bottom: 15px;
 }
 
+.totalSumDollar,
+.totalSumUah {
+color: black;
+}
 hr {
   border: none;
   border-top: 3px double #333;
@@ -126,16 +130,18 @@ hr {
 
 input[disabled] {
 /*   color: white; */
-  color: red; 
+  color: black; 
 /*   temporary changes */
 }
 
 .deleteBtn {
   margin-top: 18px;
   width: 60px;
+  color: black;
 }
 
 .clearAllBtn {
   margin-top: 40px;
   width: 60px;
+  color: black;
 }
