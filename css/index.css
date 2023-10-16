@@ -97,7 +97,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 input {
   text-align: center;
-  width: 110px;
+  width: 150px;
 }
 
 .todaysCourses {
@@ -112,7 +112,7 @@ input {
 .totalSum {
   display: flex;
   align-items: center;
-  column-gap: 10px;
+  column-gap: 20px;
   margin-bottom: 15px;
 }
 
