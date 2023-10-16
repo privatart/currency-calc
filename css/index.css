@@ -28,7 +28,7 @@ img {
   max-width: 800px;
   /* margin: auto; */
   /* text-align: center; */
-  margin: 5px 50px 5px 50px;
+  margin: 30px 5px 5px 10px;
 }
 
 /* * {
@@ -97,7 +97,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 input {
   text-align: center;
-  width: 70px;
+  width: 50px;
 }
 
 .todaysCourses {
@@ -112,7 +112,7 @@ input {
 .totalSum {
   display: flex;
   align-items: center;
-  column-gap: 15px;
+  column-gap: 10px;
   margin-bottom: 15px;
 }
 
@@ -123,7 +123,7 @@ hr {
   overflow: visible;
   text-align: center;
   height: 5px;
-  width: 390px;
+  width: 300px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
