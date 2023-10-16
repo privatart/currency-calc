@@ -1,16 +1,9 @@
 /* @import url(general.css) */
 
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;700;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap"); */
 
 :root {
-  --main-color: #28283a;
-  --main-light-color: #66698c;
-  --aditional-color: #70a036;
-  --accent-color: #ff5b00;
-  --bright-color: white;
-  --dark-color: black;
+/*   --main-color: #28283a; */
 }
 
 * {
