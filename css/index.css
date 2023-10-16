@@ -97,7 +97,8 @@ input[type="number"]::-webkit-outer-spin-button {
 
 input {
   text-align: center;
-  width: 150px;
+  width: 60px;
+  font-size: smaller;
 }
 
 .todaysCourses {
