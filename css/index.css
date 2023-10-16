@@ -92,6 +92,8 @@ input {
   text-align: center;
   width: 60px;
   font-size: smaller;
+  color: red; 
+/*   temporary changes */
 }
 
 .todaysCourses {
@@ -123,7 +125,9 @@ hr {
 }
 
 input[disabled] {
-  color: white;
+/*   color: white; */
+  color: red; 
+/*   temporary changes */
 }
 
 .deleteBtn {
