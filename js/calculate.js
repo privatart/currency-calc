@@ -25,7 +25,7 @@ function error() {
   );
   const errorDiv = document.createElement("div");
   errorDiv.className = "error";
-  errorDiv.textContent = "Reload the page and try again...!";
+  errorDiv.textContent = "Reload the page and try again...!<hr>Have a nice day ;-)";
   document.body.innerHTML = "";
   document.body.appendChild(errorDiv);
 }
